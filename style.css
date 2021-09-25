@@ -1,5 +1,6 @@
 /* This part is for the pc that everyone uses */
 body{
+    overflow-x:hidden;
     width: 100%;
 }
 .text {
@@ -435,6 +436,7 @@ body{
         width: 50px;
         padding:20% ;
         padding-top:30% ;
+        overflow:hidden;
     }
     .still-class {
         height: 80px;
