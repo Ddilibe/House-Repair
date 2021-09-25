@@ -1,8 +1,11 @@
 /* This part is for the pc that everyone uses */
+/* * {
+    outline: 1px solid red;
+} */
 body{
-    overflow-x:hidden;
-    width: 100%;
+    max-width: 100%;
 }
+
 .text {
     display: flex;
     flex-direction: column;
@@ -904,7 +907,9 @@ body{
         flex-direction: column;
         height: auto;
         width: 100%;
-        padding: 10% 10%;
+        padding: 10% 0%;
+        justify-content: center;
+        text-align:center;
     }
     .sixth-partb{
         display: flex;
